@@ -1,0 +1,49 @@
+{
+  "name": "full-stack-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "dependencies": {
+    "@types/cors": "^2.8.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.2",
+    "moment": "^2.27.0",
+    "mysql": "^2.18.1",
+    "save": "^2.4.0",
+    "sql": "^0.78.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6",
+    "ts-node-dev": "^1.0.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.7",
+    "@types/jest": "^25.2.3",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/knex": "^0.16.1",
+    "@types/uuid": "^8.0.0"
+  },
+  "scripts": {
+    "my-sql-setup": "tsc && node ./build/mySqlSetup.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts",
+    "dev": " ts-node-dev ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martthus/Full-stack-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martthus/Full-stack-backend/issues"
+  },
+  "homepage": "https://github.com/Martthus/Full-stack-backend#readme"
+}
