@@ -59,8 +59,8 @@
       Content-Type: application/json
 
   {
-	  "email": "Fel@not.com",
-	  "password": "123456789"
+      "email": "Fel@not.com",
+      "password": "123456789"
   }
  ```
 
@@ -71,10 +71,10 @@
       Content-Type: application/json
 
   {
-	  "name": "Varejo Flórida",
-    "cnpj": "48.486.997/0001-68",
-	  "cep": "16832248",
-    "address": "R. Xavantes, 632, SP"
+      "name": "Varejo Flórida",
+      "cnpj": "48.486.997/0001-68",
+      "cep": "16832248",
+      "address": "R. Xavantes, 632, SP"
    }
  ```
  
