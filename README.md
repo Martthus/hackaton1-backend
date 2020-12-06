@@ -64,7 +64,7 @@
   }
  ```
 
-### NEW RETAIL :notes:
+### NEW RETAIL :notebook_with_decorative_cover:
  ```node
     POST http://localhost:3003/retail/new
       Authorization: token de autorização / ex: "qbfq@%ffw6sdf342¨@%#&sfsw52342¨@%f6125f"
@@ -78,14 +78,14 @@
    }
  ```
  
- ### GET ALL RETAILS :musical_score:
+ ### GET ALL RETAILS :hammer:
   ```node
       GET http://localhost:3003/retail/all
         Authorization: token de autorização / ex: "qbfq@%ffw6sdf342¨@%#&sfsw52342¨@%f6125f"
         Content-Type: application/json
   ```
   
- ### GET RETAIL BY CNPJ :musical_score:
+ ### GET RETAIL BY CNPJ :mag:
   ```node
       GET http://localhost:3003/retail/search?cnpj={{cnpj}}
         Authorization: token de autorização / ex: "qbfq@%ffw6sdf342¨@%#&sfsw52342¨@%f6125f"
